@@ -123,7 +123,6 @@ for (i = 1; i <= n; i++) {
     somaNotas += nota * peso;
     somaPesos += peso;
 }
-
 if (somaPesos != 0) {
     media = somaNotas / somaPesos;
     printf("A média ponderada é: %.2f\n", media);
